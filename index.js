@@ -322,7 +322,9 @@ const data=[
 
 
 const list = () => {
-
+   data.map(function(elem){
+    console.log(elem);
+   })
 }
 list();
 
